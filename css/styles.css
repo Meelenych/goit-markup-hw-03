@@ -61,7 +61,6 @@ body {
 }
 
 .container {
-  box-sizing: content-box;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -286,9 +285,9 @@ img {
 /*Portfolio*/
 
 .filter {
-  display: inline-flex;
+  display: flex;
   margin-bottom: 50px;
-  padding-left: 260px;
+  justify-content: center;
 }
 
 .project-name {
@@ -323,5 +322,5 @@ img {
 .label {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-  margin-top: -1px;
+  border-top: none;
 }
